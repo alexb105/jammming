@@ -13,7 +13,7 @@ export class Track extends React.Component{
     }
 
     removeTrack(){
-        this.props.onRemove(this.props.track)
+        this.props.onRemove(this.props.track);
     }
 
     renderAction(){
